@@ -300,7 +300,7 @@ GitHub: github.com/johndoe
                   <Button
                     onClick={() =>
                       openModal(
-                        "Email: john.doe@example.com\n\nFeel free to reach out for any opportunities or collaborations!",
+                        "Email: samarpitabdas@gmail.com\n\nFeel free to reach out for any opportunities or collaborations!",
                       )
                     }
                     className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-3"
@@ -314,6 +314,14 @@ GitHub: github.com/johndoe
                     className="bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-3"
                   >
                     💼 LINKEDIN
+                  </Button>
+                  <Button
+                    onClick={() =>
+                      openModal("GitHub: github.com/johndoe\n\nCheck out my code repositories and contributions!")
+                    }
+                    className="bg-purple-500 hover:bg-purple-400 text-white font-bold py-3"
+                  >
+                    🐙 GITHUB
                   </Button>
                   <Button
                     onClick={() =>
